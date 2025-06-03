@@ -175,7 +175,7 @@ def render_tag_section(
     for rel_path, title in sorted(notebooks, key=lambda x: x[1].lower()):
         nb_posix = rel_path.as_posix()
         nbviewer_url = f"https://nbviewer.org/github/{repo}/blob/master/{nb_posix}"
-        raw_url = f"https://raw.githubusercontent.com/{repo}/master/{nb_posix}"
+        raw_url = f"https://github.com/{repo}/blob/master/{nb_posix}"
         link_md = f"[view]({nbviewer_url})<br>[(raw)]({raw_url})"
         lines.append(f"| {title} | {link_md} |")
     lines.append("")  # blank line after table
