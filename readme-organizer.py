@@ -9,10 +9,6 @@ START_MARKER = "<!-- NOTEBOOK-TOC-START -->"
 END_MARKER = "<!-- NOTEBOOK-TOC-END -->"
 
 def find_notebooks(base_dir="."):
-    """
-    Recursively collect all .ipynb file paths under base_dir (relative).
-    Skips hidden directories (like .git/, __pycache__, etc.).
-    """
     notebooks = []
     for root, dirs, files in os.walk(base_dir):
         # Skip hidden folders
@@ -25,12 +21,6 @@ def find_notebooks(base_dir="."):
     return notebooks
 
 def extract_tags_from_last_md(nb_path):
-    """
-    Open the notebook, find its last Markdown cell, look for a fenced JSON block
-    (```json { ... } ```) in that cell, parse the JSON, and return the value of
-    "Tags" (a list of strings). If anything fails (no Markdown cells, no JSON
-    fence, invalid JSON, or no "Tags" key), return an empty list.
-    """
     try:
         nb = nbformat.read(nb_path, as_version=4)
     except Exception as e:
@@ -74,10 +64,6 @@ def extract_tags_from_last_md(nb_path):
     return []
 
 def build_tag_index(nb_paths):
-    """
-    Build a dict: { tag_string → [list of notebook-relative-paths] }.
-    Notebooks with no valid Tags array get grouped under "Untagged".
-    """
     tag_index = {}
     for nb in nb_paths:
         tags = extract_tags_from_last_md(nb)
@@ -89,19 +75,9 @@ def build_tag_index(nb_paths):
     return tag_index
 
 def generate_markdown(tag_index):
-    """
-    Given a dict {tag → [notebook paths]}, produce a Markdown snippet with:
-    - NBViewer link for viewing using folder name
-    - Raw link for direct access
-    
-    Example format:
-    ### Binary Classification
-    - [Classification/Folder](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/main/path/to/notebook.ipynb) [(raw)](path/to/notebook.ipynb)
-    """
     GITHUB_REPO = "Andrei0016/MachineLearning-Problem-Collection"
     
     def get_display_name(path):
-        """Extract folder name from path, fallback to filename if no folder"""
         dirname = os.path.dirname(path)
         if dirname:
             # Use folder name, replacing directory separators with '/'
@@ -116,7 +92,7 @@ def generate_markdown(tag_index):
             display_name = get_display_name(nb_path)
             
             # Create nbviewer link
-            nbviewer_url = f"https://nbviewer.org/github/{GITHUB_REPO}/blob/main/{nb_path}"
+            nbviewer_url = f"https://nbviewer.org/github/{GITHUB_REPO}/blob/master/{nb_path}"
             md_lines.append(f"- [{display_name}]({nbviewer_url}) [(raw)]({nb_path})")
                 
         md_lines.append("")  # blank line between each tag group
@@ -124,17 +100,6 @@ def generate_markdown(tag_index):
     return "\n".join(md_lines).strip()
 
 def replace_between_markers(readme_content, new_toc_md):
-    """
-    In readme_content (a single string), locate the lines containing START_MARKER
-    and END_MARKER. Replace everything between (and including) those two markers
-    with:
-
-    <!-- NOTEBOOK-TOC-START -->
-    <new_toc_md>
-    <!-- NOTEBOOK-TOC-END -->
-
-    If either marker is missing or out of order, raises RuntimeError.
-    """
     lines = readme_content.splitlines()
     try:
         start_idx = next(i for i, line in enumerate(lines) if START_MARKER in line)
@@ -168,11 +133,8 @@ def main():
     except FileNotFoundError:
         # Create a new README.md with markers if it doesn't exist
         readme_text = f"""# Project Notebooks
-
-{START_MARKER}
-{END_MARKER}
-
-"""
+                    {START_MARKER}
+                    {END_MARKER}"""
         print(f"Created new {README_PATH} file as it didn't exist.")
 
     # 5) Inject the new TOC between markers
