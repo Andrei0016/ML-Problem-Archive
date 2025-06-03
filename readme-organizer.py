@@ -91,24 +91,32 @@ def build_tag_index(nb_paths):
 def generate_markdown(tag_index):
     """
     Given a dict {tag → [notebook paths]}, produce a Markdown snippet with:
-    - NBViewer link for viewing
+    - NBViewer link for viewing using folder name
     - Raw link for direct access
     
     Example format:
     ### Binary Classification
-    - [my_notebook.ipynb](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/main/path/to/my_notebook.ipynb) [(raw)](path/to/my_notebook.ipynb)
+    - [Classification/Folder](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/main/path/to/notebook.ipynb) [(raw)](path/to/notebook.ipynb)
     """
-    # GitHub repository information
     GITHUB_REPO = "Andrei0016/MachineLearning-Problem-Collection"
+    
+    def get_display_name(path):
+        """Extract folder name from path, fallback to filename if no folder"""
+        dirname = os.path.dirname(path)
+        if dirname:
+            # Use folder name, replacing directory separators with '/'
+            return dirname.replace('\\', '/')
+        # Fallback to filename without extension if no folder
+        return os.path.splitext(os.path.basename(path))[0]
     
     md_lines = []
     for tag in sorted(tag_index.keys(), key=lambda s: s.lower()):
         md_lines.append(f"### {tag}")
         for nb_path in sorted(tag_index[tag], key=lambda p: p.lower()):
-            display_name = os.path.basename(nb_path)
+            display_name = get_display_name(nb_path)
             
             # Create nbviewer link
-            nbviewer_url = f"https://nbviewer.org/github/{GITHUB_REPO}/blob/master/{nb_path}"
+            nbviewer_url = f"https://nbviewer.org/github/{GITHUB_REPO}/blob/main/{nb_path}"
             md_lines.append(f"- [{display_name}]({nbviewer_url}) [(raw)]({nb_path})")
                 
         md_lines.append("")  # blank line between each tag group

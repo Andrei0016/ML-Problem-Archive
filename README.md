@@ -2,25 +2,25 @@
 
 <!-- NOTEBOOK-TOC-START -->
 ### Binary Classification
-- [Cancer-Patients-Classification.ipynb](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/master/Cancer-Patients-Classification/Cancer-Patients-Classification.ipynb) [(raw)](Cancer-Patients-Classification/Cancer-Patients-Classification.ipynb)
-- [Human-vs-ai.ipynb](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/master/Human-vs-ai/Human-vs-ai.ipynb) [(raw)](Human-vs-ai/Human-vs-ai.ipynb)
-- [IMDB-Review-Classification.ipynb](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/master/IMDB-Review-Classification/IMDB-Review-Classification.ipynb) [(raw)](IMDB-Review-Classification/IMDB-Review-Classification.ipynb)
+- [Cancer-Patients-Classification](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/main/Cancer-Patients-Classification/Notebook.ipynb) [(raw)](Cancer-Patients-Classification/Notebook.ipynb)
+- [Human-vs-ai](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/main/Human-vs-ai/Notebook.ipynb) [(raw)](Human-vs-ai/Notebook.ipynb)
+- [IMDB-Review-Classification](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/main/IMDB-Review-Classification/Notebook.ipynb) [(raw)](IMDB-Review-Classification/Notebook.ipynb)
 
 ### Clustering
-- [Human-vs-ai.ipynb](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/master/Human-vs-ai/Human-vs-ai.ipynb) [(raw)](Human-vs-ai/Human-vs-ai.ipynb)
+- [Human-vs-ai](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/main/Human-vs-ai/Notebook.ipynb) [(raw)](Human-vs-ai/Notebook.ipynb)
 
 ### Feature Engineering
-- [Cancer-Patients-Classification.ipynb](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/master/Cancer-Patients-Classification/Cancer-Patients-Classification.ipynb) [(raw)](Cancer-Patients-Classification/Cancer-Patients-Classification.ipynb)
+- [Cancer-Patients-Classification](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/main/Cancer-Patients-Classification/Notebook.ipynb) [(raw)](Cancer-Patients-Classification/Notebook.ipynb)
 
 ### NLP
-- [Human-vs-ai.ipynb](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/master/Human-vs-ai/Human-vs-ai.ipynb) [(raw)](Human-vs-ai/Human-vs-ai.ipynb)
-- [IMDB-Review-Classification.ipynb](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/master/IMDB-Review-Classification/IMDB-Review-Classification.ipynb) [(raw)](IMDB-Review-Classification/IMDB-Review-Classification.ipynb)
+- [Human-vs-ai](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/main/Human-vs-ai/Notebook.ipynb) [(raw)](Human-vs-ai/Notebook.ipynb)
+- [IMDB-Review-Classification](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/main/IMDB-Review-Classification/Notebook.ipynb) [(raw)](IMDB-Review-Classification/Notebook.ipynb)
 
 ### RF
-- [Cancer-Patients-Classification.ipynb](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/master/Cancer-Patients-Classification/Cancer-Patients-Classification.ipynb) [(raw)](Cancer-Patients-Classification/Cancer-Patients-Classification.ipynb)
+- [Cancer-Patients-Classification](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/main/Cancer-Patients-Classification/Notebook.ipynb) [(raw)](Cancer-Patients-Classification/Notebook.ipynb)
 
 ### SVC
-- [Human-vs-ai.ipynb](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/master/Human-vs-ai/Human-vs-ai.ipynb) [(raw)](Human-vs-ai/Human-vs-ai.ipynb)
-- [IMDB-Review-Classification.ipynb](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/master/IMDB-Review-Classification/IMDB-Review-Classification.ipynb) [(raw)](IMDB-Review-Classification/IMDB-Review-Classification.ipynb)
+- [Human-vs-ai](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/main/Human-vs-ai/Notebook.ipynb) [(raw)](Human-vs-ai/Notebook.ipynb)
+- [IMDB-Review-Classification](https://nbviewer.org/github/Andrei0016/MachineLearning-Problem-Collection/blob/main/IMDB-Review-Classification/Notebook.ipynb) [(raw)](IMDB-Review-Classification/Notebook.ipynb)
 <!-- NOTEBOOK-TOC-END -->
 
