@@ -108,7 +108,7 @@ def generate_markdown(tag_index):
             display_name = os.path.basename(nb_path)
             
             # Create nbviewer link
-            nbviewer_url = f"https://nbviewer.org/github/{GITHUB_REPO}/blob/main/{nb_path}"
+            nbviewer_url = f"https://nbviewer.org/github/{GITHUB_REPO}/blob/master/{nb_path}"
             md_lines.append(f"- [{display_name}]({nbviewer_url}) [(raw)]({nb_path})")
                 
         md_lines.append("")  # blank line between each tag group
