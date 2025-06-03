@@ -22,7 +22,6 @@ jupyterlab-fasta>=3.3.0,<4
 # JupyterLab: Geojson file renderer (optional)
 jupyterlab-geojson>=3.4.0,<4
 # JupyterLab: guided tour (optional)
-# TODO: re-enable after https://github.com/jupyterlab-contrib/jupyterlab-tour/issues/82
 # jupyterlab-tour
 # JupyterLab: dark theme
 jupyterlab-night
@@ -43,3 +42,5 @@ ipyleaflet
 # Python: plotting libraries (optional)
 plotly>=5,<6
 bqplot
+
+nbformat>=5.9.0

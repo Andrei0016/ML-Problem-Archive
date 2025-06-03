@@ -174,7 +174,8 @@ def render_tag_section(
     lines.append("|-------|--------------|")
     for rel_path, title in sorted(notebooks, key=lambda x: x[1].lower()):
         nb_posix = rel_path.as_posix()
-        nbviewer_url = f"https://nbviewer.org/github/{repo}/blob/master/{nb_posix}"
+        nb_posix_w_content = nb_posix.replace("content", '')
+        nbviewer_url = f"https://andrei0016.github.io/ML-Problem-Archive/lab?path={nb_posix_w_content}"
         raw_url = f"https://github.com/{repo}/blob/master/{nb_posix}"
         link_md = f"[view]({nbviewer_url})<br>[(raw)]({raw_url})"
         lines.append(f"| {title} | {link_md} |")
