@@ -9,7 +9,7 @@ import nbformat
 # ─────────────── CONFIGURATION ────────────────────
 
 # Directory to scan for .ipynb files (relative to this script)
-BASE_DIR = Path("..").resolve()
+BASE_DIR = Path(".").resolve()
 
 # Path to README to update
 README_PATH = BASE_DIR / "README.md"
