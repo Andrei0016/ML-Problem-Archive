@@ -27,7 +27,7 @@ jobs:
         run: pip install nbformat
 
       - name: Run TOC update script
-        run: python scripts/readme-organizer.py
+        run: python readme-organizer.py
 
       - name: Commit and push README if changed
         env:
