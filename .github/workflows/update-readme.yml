@@ -5,7 +5,7 @@ on:
     paths:
       - 'content/**'       # Trigger only when files are added/changed in content/
     branches:
-      - main               # Or 'master', depending on your default branch
+      - master               # Or 'master', depending on your default branch
 
 jobs:
   update-toc:
