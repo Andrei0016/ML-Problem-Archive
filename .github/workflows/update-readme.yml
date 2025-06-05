@@ -1,0 +1,27 @@
+name: Update README TOC
+
+on:
+  push:
+    paths:
+      - 'content/**'       # Trigger only when files are added/changed in content/
+    branches:
+      - main               # Or 'master', depending on your default branch
+
+jobs:
+  update-toc:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'  # or your preferred version
+
+      - name: Install dependencies
+        run: pip install nbformat
+
+      - name: Run TOC update script
+        run: python scripts/your_script_name.py
