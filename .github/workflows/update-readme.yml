@@ -3,9 +3,9 @@ name: Update README TOC
 on:
   push:
     paths:
-      - 'content/**'       # Trigger only when files are added/changed in content/
+      - 'content/**'     
     branches:
-      - master               # Or 'master', depending on your default branch
+      - master              
 
 jobs:
   update-toc:
@@ -24,4 +24,4 @@ jobs:
         run: pip install nbformat
 
       - name: Run TOC update script
-        run: python scripts/your_script_name.py
+        run: python scripts/readme-organizer.py
