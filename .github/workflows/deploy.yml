@@ -4,20 +4,9 @@ on:
   push:
     branches:
       - master
-    paths:
-      - '**.ipynb'
-      - '**.py'
-      - 'README.md'
-      - '.github/workflows/**'
-
   pull_request:
     branches:
       - '*'
-    paths:
-      - '**.ipynb'
-      - '**.py'
-      - 'README.md'
-      - '.github/workflows/**'
 
 jobs:
   build:
@@ -25,42 +14,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          # Disable writing the default GITHUB_TOKEN into Git’s local config,
-          # so that we can override with GH_PAT below.
-          persist-credentials: false
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install the dependencies
         run: |
           python -m pip install -r requirements.txt
-
-      - name: Update README notebook TOC
-        run: |
-          python readme-organizer.py
-
-      - name: Push changes
-        run: |
-          # 1) Set a commit author
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          # 2) Replace origin URL with a PAT-backed one
-          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
-
-          # 3) Stage README.md and commit if it changed
-          git add README.md
-          git diff --cached --quiet \
-            || (git commit -m "Auto-update README TOC" && git push origin HEAD:master)
-
       - name: Build the JupyterLite site
         run: |
+          cp README.md content
           jupyter lite build --contents content --output-dir dist
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
