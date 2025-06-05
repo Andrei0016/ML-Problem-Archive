@@ -14,6 +14,7 @@ A repository of resolved artificial intelligence tasks, designed to support rese
 - [Binary Classification](#binary-classification)
 - [Boosting](#boosting)
 - [Clustering](#clustering)
+- [CNN](#cnn)
 - [Computer Vision](#computer-vision)
 - [Dimensionality Reduction](#dimensionality-reduction)
 - [Feature Engineering](#feature-engineering)
@@ -41,10 +42,17 @@ A repository of resolved artificial intelligence tasks, designed to support rese
 |-------|--------------|
 | Human-vs-ai | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/Human-vs-ai/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/Human-vs-ai/Notebook.ipynb) |
 
+### CNN
+
+| Title | Path & Links |
+|-------|--------------|
+| MNIST-Hand-Drawn-Digits-Recognition-CNN | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/MNIST-Hand-Drawn-Digits-Recognition-CNN/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/MNIST-Hand-Drawn-Digits-Recognition-CNN/Notebook.ipynb) |
+
 ### Computer Vision
 
 | Title | Path & Links |
 |-------|--------------|
+| MNIST-Hand-Drawn-Digits-Recognition-CNN | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/MNIST-Hand-Drawn-Digits-Recognition-CNN/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/MNIST-Hand-Drawn-Digits-Recognition-CNN/Notebook.ipynb) |
 | MNIST-Hand-Drawn-Digits-Recognition-XGBOOST | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/MNIST-Hand-Drawn-Digits-Recognition-XGBOOST/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/MNIST-Hand-Drawn-Digits-Recognition-XGBOOST/Notebook.ipynb) |
 
 ### Dimensionality Reduction
@@ -63,6 +71,7 @@ A repository of resolved artificial intelligence tasks, designed to support rese
 
 | Title | Path & Links |
 |-------|--------------|
+| MNIST-Hand-Drawn-Digits-Recognition-CNN | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/MNIST-Hand-Drawn-Digits-Recognition-CNN/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/MNIST-Hand-Drawn-Digits-Recognition-CNN/Notebook.ipynb) |
 | MNIST-Hand-Drawn-Digits-Recognition-XGBOOST | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/MNIST-Hand-Drawn-Digits-Recognition-XGBOOST/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/MNIST-Hand-Drawn-Digits-Recognition-XGBOOST/Notebook.ipynb) |
 
 ### NLP
@@ -78,13 +87,4 @@ A repository of resolved artificial intelligence tasks, designed to support rese
 |-------|--------------|
 | Human-vs-ai | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/Human-vs-ai/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/Human-vs-ai/Notebook.ipynb) |
 | IMDB-Review-Classification | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/IMDB-Review-Classification/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/IMDB-Review-Classification/Notebook.ipynb) |
-
-### Untagged
-
-<details>
-<summary>Show 1 untagged notebook</summary>
-
-- [MNIST-Hand-Drawn-Digits-Recognition-CNN](https://nbviewer.org/github/Andrei0016/ML-Problem-Archive/blob/master/content/MNIST-Hand-Drawn-Digits-Recognition-CNN/Notebook.ipynb)  
-
-</details>
 <!-- NOTEBOOK-TOC-END -->
