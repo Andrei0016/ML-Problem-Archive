@@ -6,7 +6,7 @@
 [![Build and Deploy](https://github.com/Andrei0016/ML-Problem-Archive/actions/workflows/deploy.yml/badge.svg)](https://github.com/Andrei0016/ML-Problem-Archive/actions/workflows/deploy.yml)
 [![Update README TOC](https://github.com/Andrei0016/ML-Problem-Archive/actions/workflows/update-readme.yml/badge.svg)](https://github.com/Andrei0016/ML-Problem-Archive/actions/workflows/update-readme.yml)
 
-A repository of resolved artificial intelligence tasks, designed to support research, learning, and application in real-world scenarios
+A repository of resolved artificial intelligence tasks, designed to support research, learning, and application in real-world scenarios.
 
 <!-- NOTEBOOK-TOC-START -->
 ## Notebook Tags
