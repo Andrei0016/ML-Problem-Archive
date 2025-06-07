@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - 'content/**'
-      - 'README.md'
     branches:
       - master
 
