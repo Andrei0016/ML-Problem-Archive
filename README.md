@@ -20,6 +20,7 @@ A repository of resolved artificial intelligence tasks, designed to support rese
 - [Feature Engineering](#feature-engineering)
 - [Image Classification](#image-classification)
 - [NLP](#nlp)
+- [Regression](#regression)
 - [SVM](#svm)
 
 ### Binary Classification
@@ -66,6 +67,7 @@ A repository of resolved artificial intelligence tasks, designed to support rese
 | Title | Path & Links |
 |-------|--------------|
 | Cancer-Patients-Classification | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/Cancer-Patients-Classification/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/Cancer-Patients-Classification/Notebook.ipynb) |
+| Delivery-Time-Prediction | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/Delivery-Time-Prediction/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/Delivery-Time-Prediction/Notebook.ipynb) |
 
 ### Image Classification
 
@@ -80,6 +82,12 @@ A repository of resolved artificial intelligence tasks, designed to support rese
 |-------|--------------|
 | Human-vs-ai | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/Human-vs-ai/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/Human-vs-ai/Notebook.ipynb) |
 | IMDB-Review-Classification | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/IMDB-Review-Classification/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/IMDB-Review-Classification/Notebook.ipynb) |
+
+### Regression
+
+| Title | Path & Links |
+|-------|--------------|
+| Delivery-Time-Prediction | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/Delivery-Time-Prediction/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/Delivery-Time-Prediction/Notebook.ipynb) |
 
 ### SVM
 
