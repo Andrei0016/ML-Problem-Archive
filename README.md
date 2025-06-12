@@ -95,4 +95,13 @@ A repository of resolved artificial intelligence tasks, designed to support rese
 |-------|--------------|
 | Human-vs-ai | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/Human-vs-ai/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/Human-vs-ai/Notebook.ipynb) |
 | IMDB-Review-Classification | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/IMDB-Review-Classification/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/IMDB-Review-Classification/Notebook.ipynb) |
+
+### Untagged
+
+<details>
+<summary>Show 1 untagged notebook</summary>
+
+- [Bach-Chorales-Dataset](https://nbviewer.org/github/Andrei0016/ML-Problem-Archive/blob/master/content/Bach-Chorales-Dataset/Notebook.ipynb)  
+
+</details>
 <!-- NOTEBOOK-TOC-END -->
