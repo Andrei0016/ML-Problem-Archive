@@ -47,12 +47,14 @@ A repository of resolved artificial intelligence tasks, designed to support rese
 
 | Title | Path & Links |
 |-------|--------------|
+| Lunar-Craters | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/Lunar-Craters/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/Lunar-Craters/Notebook.ipynb) |
 | MNIST-Hand-Drawn-Digits-Recognition-CNN | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/MNIST-Hand-Drawn-Digits-Recognition-CNN/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/MNIST-Hand-Drawn-Digits-Recognition-CNN/Notebook.ipynb) |
 
 ### Computer Vision
 
 | Title | Path & Links |
 |-------|--------------|
+| Lunar-Craters | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/Lunar-Craters/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/Lunar-Craters/Notebook.ipynb) |
 | MNIST-Hand-Drawn-Digits-Recognition-CNN | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/MNIST-Hand-Drawn-Digits-Recognition-CNN/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/MNIST-Hand-Drawn-Digits-Recognition-CNN/Notebook.ipynb) |
 | MNIST-Hand-Drawn-Digits-Recognition-XGBOOST | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/MNIST-Hand-Drawn-Digits-Recognition-XGBOOST/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/MNIST-Hand-Drawn-Digits-Recognition-XGBOOST/Notebook.ipynb) |
 
@@ -88,6 +90,7 @@ A repository of resolved artificial intelligence tasks, designed to support rese
 | Title | Path & Links |
 |-------|--------------|
 | Delivery-Time-Prediction | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/Delivery-Time-Prediction/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/Delivery-Time-Prediction/Notebook.ipynb) |
+| Lunar-Craters | [view](https://andrei0016.github.io/ML-Problem-Archive/lab?path=/Lunar-Craters/Notebook.ipynb)<br>[(raw)](https://github.com/Andrei0016/ML-Problem-Archive/blob/master/content/Lunar-Craters/Notebook.ipynb) |
 
 ### SVM
 
